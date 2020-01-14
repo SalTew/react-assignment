@@ -1,0 +1,28 @@
+@media (max-width: 780px) {
+    .product-filter {
+      flex-direction: column;
+    }
+    .sort {
+      align-self: flex-start;
+    }
+  }
+
+.product-filter {
+    display: flex;
+    background-color: #f8d2e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.product-filter h5 {
+    flex-grow: 1;
+  }
+
+.sort {
+    display: flex;
+  }
+
+.collection-sort {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+  }
